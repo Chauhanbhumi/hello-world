@@ -1,0 +1,60 @@
+/* border example 
+background example
+outline example
+margin,padding,text */
+/* element selector */
+body
+{
+background:url('picture1.jpg') no-repeat right top;
+background-size:cover;
+background-attachment:fixed;
+}
+/* class selector */
+.p1
+{
+color:blue;
+font-size:30px;
+border:4px inset yellow;
+background-color:pink;
+}
+/* id selector */
+#h1
+{
+font-family:verdana;
+color:white;
+border-style:outset;
+border-color:red green pink blue;
+border-width:5px;
+margin: 100px 100px 100px 100px;
+padding:50px 50px 50px 50px;
+text-align:center;
+}
+/* grouping selector */
+h2,h3
+{
+color:white;
+background-color:blue;
+border-style: dotted solid double groove;
+border-width:6px;
+border-radius:60px;
+}
+h3
+{
+outline-style:groove;
+outline-color:white;
+outline-width:7px;
+outline-offset:5px;
+font-style:italic;
+}
+/* text decoration */
+h4
+{
+text-decoration:line-through;
+background-color:green;
+text-align:justify;
+font-family:"Times New Roman" ;
+text-indent:20px;
+letter-spacing:2px;
+word-spacing:5px;
+text-shadow: 2px 2px 5px red;
+}
